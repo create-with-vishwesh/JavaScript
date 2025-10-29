@@ -3,10 +3,10 @@ let accountEmail = "vishwesh@gmail.com"
 var accountPassword = "12345"
 accountCity = "Ahemedabad"
 
+let accountState;
+
 console.log(accountId);
 
-console.table([accountId,accountEmail,accountPassword,accountCity]);
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
 
-accountId = 11223344;
-
-// console.log(accountId); // Assignment to constant variable.
+// accountId = 11223344; // Assignment to constant variable.
