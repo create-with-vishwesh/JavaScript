@@ -16,7 +16,7 @@ console.log("Vishwesh");
 
 /* dataTypes
     1. number -> 2 to power 52 or 53
-        |---> bit int (if needed)    
+        |---> big int (if needed)
     2. string -> used in "" or '' 
     3. boolean -> true/false
     4. null -> standalone value 
