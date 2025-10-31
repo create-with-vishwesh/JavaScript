@@ -25,3 +25,30 @@ const myFunc = function () {
   console.log("Hello!");
 };
 myFunc();
+
+// ------------------ Memory ------------------ //
+
+/* 
+        Stack                      Heap
+      primitive                 non-primitive
+
+*/
+
+// Stored in Stack: no refrence (gives copy)
+let name = "name1";
+let orgName = name;
+orgName = "Vishwesh";
+
+console.log(name);
+console.log(orgName);
+
+// Stored in Heap: one refrenece (give full access)
+let user1 = {
+  email: "user@gmail.com",
+  age: 25,
+};
+
+let mainUser = user1;
+mainUser.email = "vishwesh@google.com";
+console.log(user1.email);
+console.log(mainUser.email);
